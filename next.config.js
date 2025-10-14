@@ -7,11 +7,17 @@ const withPWA = require('next-pwa')({
 });
 
 const nextConfig = {
-  output: 'export',
+  // ✅ Corrigido: modo servidor (sem export estático)
+  output: 'standalone',
+
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: { unoptimized: true },
+
+  images: {
+    unoptimized: true,
+  },
+
   experimental: {
     optimizePackageImports: ['lucide-react'],
   },

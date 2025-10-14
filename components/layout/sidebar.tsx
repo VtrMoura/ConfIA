@@ -103,7 +103,7 @@ export function Sidebar() {
             CISER CorroScan v1.0
           </div>
           <div className="text-xs text-muted-foreground">
-            Jaraguá do Sul, SC
+            Pomerode, SC
           </div>
         </div>
       )}

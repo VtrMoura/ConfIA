@@ -100,9 +100,6 @@ export default function LandingPage() {
             />
             <div className="hidden md:block">
               <h1 className="text-xl font-bold text-primary">ConfIA</h1>
-              <p className="text-xs text-muted-foreground">
-                Detecção de Corrosão por IA
-              </p>
             </div>
           </div>
           
